@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="boligen.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-23T10:53:28" hostname="lailas-MacBook-Pro-2.local" time="0.015">
+<testsuite name="boligen.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-23T13:27:43" hostname="lailas-MacBook-Pro-2.local" time="0.013">
   <properties/>
-  <testcase name="appHasAGreeting" classname="boligen.AppTest" time="0.015"/>
+  <testcase name="appHasAGreeting" classname="boligen.AppTest" time="0.013"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

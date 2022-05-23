@@ -201,7 +201,7 @@ fi
 
 set -- \
         -classpath "$CLASSPATH" \
-        boligen.BoligAppKt \
+        housing.HousingAppKt \
         "$@"
 
 # Use "xargs" to parse quoted args.

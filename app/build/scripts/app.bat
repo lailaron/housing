@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\app.jar;%APP_HOME%\lib\ktor-serialization-jvm-1.6.8
 
 
 @rem Execute app
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %APP_OPTS%  -classpath "%CLASSPATH%" boligen.BoligAppKt %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %APP_OPTS%  -classpath "%CLASSPATH%" housing.HousingAppKt %*
 
 :end
 @rem End local scope for the variables with windows NT shell
