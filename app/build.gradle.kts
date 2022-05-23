@@ -36,6 +36,12 @@ dependencies {
     implementation("io.ktor:ktor-serialization:1.6.8")
     implementation("io.ktor:ktor-gson:1.6.8")
 
+
+    // swagger
+    implementation("org.springdoc:springdoc-openapi-data-rest:1.6.0")
+    implementation("org.springdoc:springdoc-openapi-ui:1.6.0")
+    implementation("org.springdoc:springdoc-openapi-kotlin:1.6.0")
+
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 

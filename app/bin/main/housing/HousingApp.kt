@@ -12,30 +12,7 @@ import io.ktor.server.netty.Netty
 import io.ktor.server.engine.embeddedServer
 import io.ktor.gson.*
 import java.util.UUID
-
-@Serializable
-data class Application(val name:String, val residents:MutableList<Resident>, val cause:String) {
-    var id:UUID = UUID.randomUUID()
-}
-data class Resident(val fnr:String, val name:String)
-
-class ApplicationService() {
-    val store: MutableMap<UUID, Application> = HashMap()
-
-    fun admitApplication(application: Application): UUID {
-        application.id = UUID.randomUUID()
-        store.put(application.id, application)
-        return application.id
-    }
-
-    fun get(id: UUID): Application? {
-        return store.get(id)
-    }
-
-    fun list(): MutableCollection<Application>{
-        return store.values
-    }
-}
+import housing.ApplicationService
 
 fun main(args: Array<String>) {
     
